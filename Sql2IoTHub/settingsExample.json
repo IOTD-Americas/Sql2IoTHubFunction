@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  },
+
+  "SqlQuery": "SELECT TOP (100) * FROM [mytable]",
+  "ConnectionString": "Server=tcp:xxxxxxxx.database.windows.net,1433;Initial Catalog=Xxxxxx;Persist Security Info=False;User ID=xxxx;Password=xxxxxxx$;MultipleActiveResultSets=False;Encrypt=False;Connection Timeout=100;",
+  "DeviceConnectionString": "HostName=zzzzzz.azure-devices.net;DeviceId=zzzzzzzzz;SharedAccessKey=zzzzzzz"
+}
