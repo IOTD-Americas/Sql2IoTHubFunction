@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Sql2IoTHub": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "SqlQuery": "SELECT TOP (100) * FROM [dbo].[API_GetRunTime]",
+        "ConnectionString": "Server=tcp:bbudatabasessispoc.database.windows.net,1433;Initial Catalog=BBUGBConnectedDB;Persist Security Info=False;User ID=bbuadmin;Password=#Grup0B1mb0..$$;MultipleActiveResultSets=False;Encrypt=False;Connection Timeout=100;",
+        "DeviceConnectionString": "HostName=iothub-demosgbb.azure-devices.net;DeviceId=sql2iothubDeviceTest;SharedAccessKey=wdBql5SMoA9qnJUaFbaXdQQI7wpGFwjyK/+8zHws6ZY="
+      }
+    }
+  }
+}
