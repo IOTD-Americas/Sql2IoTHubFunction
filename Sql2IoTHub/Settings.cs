@@ -38,6 +38,7 @@
             try
             {
                 IConfiguration configuration = new ConfigurationBuilder()
+                    .AddJsonFile("local.settings.json",true)
                     .AddEnvironmentVariables()
                     .Build();
 
